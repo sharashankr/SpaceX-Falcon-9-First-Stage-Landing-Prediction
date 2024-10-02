@@ -3,8 +3,8 @@ This repository predicts if the Falcon 9 first stage will land successfully. Spa
 
 ![](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DS0701EN-SkillsNetwork/lab_v2/images/landing_1.gif)
 
-The project is divided between multiple notebooks, with work ranging from data collection - to cleaning and finally the ML prediction. Please refer to each notebook for more details. 
-For your reference:
+The project is divided across multiple notebooks, covering the workflow from data collection and cleaning to machine learning prediction. Please refer to each notebook for more detailed explanations and follow the Table of Contents in the specified order for a structured approach. Thank you!
+
 ## Table of Contents
 1. [Data Collection through API](#data-collection-through-api)
     - Request to the SpaceX API
