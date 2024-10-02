@@ -10,30 +10,60 @@ For your reference:
     - Request to the SpaceX API
     - Clean the requested data
 2. [Web Scraping - More Data Collection](#web-scraping-more-data-collection)
+    - Extract a Falcon 9 launch records HTML table from Wikipedia
+    - Parse the table and convert it into a Pandas DataFrame
 3. [Data Wrangling](#data-wrangling)
+    - Exploratory Data Analysis
+    - Determine Training Labels
 4. [Exploratory Data Analysis](#exploratory-data-analysis)
+    - Understand the SpaceX DataSet
+    - Load the dataset into the corresponding table in a Db2 database
+    - Execute SQL queries to answer assignment questions
 5. [Preparing the Data](#preparing-the-data)
+    - Preparing Data
+    - Feature Engineering
 6. [Visual Analysis with Folium](#visual-analysis-with-folium)
+    - Mark all launch sites on a map
+    - Mark the success/failed launches for each site on the map
+    - Calculate the distances between a launch site to its proximities
 7. [Machine Learning Prediction](#machine-learning-prediction)
+    - Perform Exploratory Data Analysis and determine Training Labels
+        * Create a column for the class
+        * Standardize the data
+        * Split into training data and test data
+    - Find best Hyperparameter for SVM, Classification Trees, and Logistic Regression
+    - Find which method performs best using test data
 
 ## Data Collection through API
 - **Request to the SpaceX API**: Collected data about SpaceX launches.
 - **Clean the requested data**: Filtered and prepared the raw API data for further analysis.
 
 ## Web Scraping - More Data Collection
-Performed additional data collection by scraping relevant websites to augment the SpaceX API data.
+- **Extract a Falcon 9 launch records HTML table from Wikipedia**: Scraped Falcon 9 launch data directly from the relevant Wikipedia page.
+- **Parse the table and convert it into a Pandas DataFrame**: Converted the HTML table into a structured DataFrame for further analysis.
 
 ## Data Wrangling
-Cleaned and formatted the collected data, handled missing values, and merged different data sources.
+- **Exploratory Data Analysis**: Explored initial patterns and trends in the data.
+- **Determine Training Labels**: Identified the target labels for training machine learning models.
 
 ## Exploratory Data Analysis
-Explored patterns, trends, and insights from the cleaned dataset.
+- **Understand the SpaceX DataSet**: Performed analysis to understand the features and attributes of the dataset.
+- **Load the dataset into the corresponding table in a Db2 database**: Inserted the data into a Db2 database for further querying.
+- **Execute SQL queries to answer assignment questions**: Ran SQL queries on the database to gather insights and answers for assignment-related questions.
 
 ## Preparing the Data
-Performed feature engineering and split the data into training and testing sets for model building.
+- **Preparing Data**: Preprocessed the data to ensure readiness for machine learning models.
+- **Feature Engineering**: Engineered new features and transformed existing ones for better model performance.
 
 ## Visual Analysis with Folium
-Created interactive maps to visualize launch sites and success rates using the Folium library.
+- **Mark all launch sites on a map**: Plotted each SpaceX launch site on an interactive map.
+- **Mark the success/failed launches for each site on the map**: Visualized the success or failure of launches at each site.
+- **Calculate the distances between a launch site to its proximities**: Computed distances between launch sites and nearby points of interest.
 
 ## Machine Learning Prediction
-Built and evaluated machine learning models to predict future SpaceX launch outcomes.
+- **Perform Exploratory Data Analysis and determine Training Labels**:
+    * Create a column for the class
+    * Standardize the data
+    * Split into training data and test data
+- **Find best Hyperparameter for SVM, Classification Trees, and Logistic Regression**: Use grid search or cross-validation to find the optimal parameters.
+- **Find which method performs best using test data**: Evaluate the performance of the models and select the best one based on accuracy or another relevant metric.
