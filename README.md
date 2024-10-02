@@ -5,6 +5,8 @@ This repository predicts if the Falcon 9 first stage will land successfully. Spa
 
 The project is divided across multiple notebooks, covering the workflow from data collection and cleaning to machine learning prediction. Please refer to each notebook for more detailed explanations and follow the Table of Contents in the specified order for a structured approach. Thank you!
 
+# SpaceX Data Analysis Project
+
 ## Table of Contents
 1. [Data Collection through API](#data-collection-through-api)
     - Request to the SpaceX API
@@ -67,3 +69,6 @@ The project is divided across multiple notebooks, covering the workflow from dat
     * Split into training data and test data
 - **Find best Hyperparameter for SVM, Classification Trees, and Logistic Regression**: Use grid search or cross-validation to find the optimal parameters.
 - **Find which method performs best using test data**: Evaluate the performance of the models and select the best one based on accuracy or another relevant metric.
+
+### Note
+- Please refer to the multiple CSV files attached, as they will be utilized for the analyses.
